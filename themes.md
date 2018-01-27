@@ -7,11 +7,11 @@ Themes for the [Guide plugin for Craft CMS](https://github.com/wbrowar/craft-3-g
 ## Craft CMS-Inspired
 *By @wbrowar*
 
- - --guide-color-bg: ![#29323D](https://placehold.it/15/29323D/000000?text=+)
- - --guide-color-border: ![#737F8B](https://placehold.it/15/737F8B/000000?text=+)
- - --guide-color-code-bg: ![#E3E5E8](https://placehold.it/15/E3E5E8/000000?text=+)
- - --guide-color-link: ![#DB513D](https://placehold.it/15/DB513D/000000?text=+)
- - --guide-color-text: ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
+--guide-color-bg: ![#29323D](https://placehold.it/15/29323D/000000?text=+)<br>
+--guide-color-border: ![#737F8B](https://placehold.it/15/737F8B/000000?text=+)<br>
+--guide-color-code-bg: ![#E3E5E8](https://placehold.it/15/E3E5E8/000000?text=+)<br>
+--guide-color-link: ![#DB513D](https://placehold.it/15/DB513D/000000?text=+)<br>
+--guide-color-text: ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)<br>
 
 ```css
 :root {
