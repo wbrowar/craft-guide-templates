@@ -1,0 +1,28 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+
+<h1>CMS Guide</h1>
+
+<p>{{ guideVar("clientName") }}'s website was built using Craft CMS.</p>
+
+{% if pluginEnabled('admin-bar') %}
+    <h2 data-guide-section>Admin Bar</h2>
+
+    {{ guideAsset('guide-admin-bar.png') }}
+
+
+    <p>When you are logged in to Craft CMS, you'll see a shortcut bar at the top of the page.</p>
+{% endif %}
+
+
+<h2 data-guide-section>Admin Bar</h2>
+
+{{ guideAsset('guide-admin-bar.png') }}
+
+
+<p>When you are logged in to Craft CMS, you'll see a shortcut bar at the top of the page.</p>
+<h2 data-guide-section>Admin Bar</h2>
+
+{{ guideAsset('guide-admin-bar.png') }}
+
+
+<p>When you are logged in to Craft CMS, you'll see a shortcut bar at the top of the page.</p>
