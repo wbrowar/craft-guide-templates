@@ -1,28 +1,34 @@
 {# @var craft \craft\web\twig\variables\CraftVariable #}
 
-{# Create the secondary navigation by editing this twig tag #}
-{# This tag only needs to live on this page and should not be copied to any other pages #}
-{{ updateGuideCpNav({
-    'Guide Home': '_guide/index',
-    'Editing Content': '_guide/content',
-    'Working with Files': '_guide/assets',
-    'Managing Users': { permissions: ['editUsers'], template: '_guide/users' },
-    'Editing Guides': { permissions: ['editGuides'], template: '_guide/guide' },
-    'Website Info': { admin: true, template: '_guide/info' },
-    'Guide Components': { permissions: ['editGuides'], template: '_guide/guide_components' },
-}) }}
+<h1>Working with Files</h1>
+
+<h2 data-guide-section>Assets</h2>
+<h2 data-guide-section>Editing an Image</h2>
+double-click for window
+section for image optimize
+<h2 data-guide-section>Focal Point</h2>
+<h2 data-guide-section>Replacing an Asset</h2>
+
+
+
+
+<p>The <a href="{{ url('assets') }}">Assets</a> tab consolidates all your uploads into one area. You can add and delete assets here. Adding an asset will allow you to choose it elsewhere on the website if you wish. Be careful when deleting an asset as it will delete it throughout the website and may create broken images or broken links.</p>
+<img src="/img/help/cms_assets.png">
+<h2>Options</h2>
+<p>You can make changes to a filename and its Alt tag (labeled &ldquo;Title&rdquo;), by double-clicking on the thumbnail of the file.</p>
+<p>Some assets have extra options that are available only in certain context. For example, an image in Content Images has a YouTube ID field that—when this image is used in an image gallery—the thumbnail image will pop up a video player. If this image is used on a page in a content block, it will not use the YouTube ID field and the image will appear as a normal image.</p>
+<img src="/img/help/cms_assets_options.png">
+
+
 
 {#
-    'Menus': '_guide/menus',
-    'Forms': { admin: true, template: '_guide/forms' },
-#}
-
 
 <h1>CMS Guide</h1>
 
 <p>{{ guideVar("clientName") }}&rsquo;s website was built using the Craft CMS content management system (CMS). While Craft makes content management easy and intuitive, this guide is here to help get you started and to answer a few questions you may have along the way.</p>
 
 <h2 data-guide-section>Dashboard</h2>
+
 <div class="guide_grid guide_grid--image--right">
     <div>
         <p>The first thing you&rsquo;ll see when logging into Craft&rsquo;s Control Panel (CP) is the Dashboard. This page is home to helpful widgets that offer information about your website. The Dashboard is customizable for each user, so you may add, remove, and re-arrange the layout of the widgets you find most useful.</p>
@@ -41,3 +47,5 @@
         {{ guideAsset('guide-admin-bar.png') }}
     </div>
 {% endif %}
+
+#}
