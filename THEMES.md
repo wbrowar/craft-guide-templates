@@ -32,7 +32,7 @@ Themes for the [Guide plugin for Craft CMS](https://github.com/wbrowar/craft-3-g
 
 ---
 
-## All Reds
+## Reds
 *By @wbrowar*
 
 
