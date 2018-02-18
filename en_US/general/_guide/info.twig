@@ -2,12 +2,12 @@
 
 {% import _self as self %}
 
-<h1>Technical Guide</h1>
+<h1>{{ guideVar("clientName") }} Website Information</h1>
 
 {% if craft.app.licensedEdition > 0 %}
     <h2 data-guide-section>Billing Information</h2>
-    <p>The licence for <b>Craft {{ craft.app.licensedEditionName }}</b> was purchased on <b><span class="guide_fpo">PURCHASE DATE</span></b>.</p>
-    <p>The renewal date for your licence is <b><span class="guide_fpo">RENEWAL DATE</span></b>.</p>
+    <p>The license for <b>Craft {{ craft.app.licensedEditionName }}</b> was purchased on <b>{{ guideVar("FPO") }}</b>.</p>
+    <p>The renewal date for your license is <b>{{ guideVar("FPO") }}</b>.</p>
 
     <hr>
 {% endif %}
