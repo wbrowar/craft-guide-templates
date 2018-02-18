@@ -4,47 +4,59 @@
 
 <h1>Technical Guide</h1>
 
-<h2>Hosting Information</h2>
+{% if craft.app.licensedEdition > 0 %}
+    <h2 data-guide-section>Billing Information</h2>
+    <p>The licence for <b>Craft {{ craft.app.licensedEditionName }}</b> was purchased on <b><span class="guide_fpo">PURCHASE DATE</span></b>.</p>
+    <p>The renewal date for your licence is <b><span class="guide_fpo">RENEWAL DATE</span></b>.</p>
+
+    <hr>
+{% endif %}
+
+
+<h2 data-guide-section>Hosting Information</h2>
 
 {# Using Linode as an example, here to populate the macro at the bottom of this template #}
 {# Swap the information out for the actual server information here #}
+{# For better security, password and other sensative info can be stored in Guide Plugin Settings as an encrypted string #}
 
 <h3 data-guide-section>Server Hardware</h3>
-{{ self.passwordTable('Hosting Company', 'Linode', 'https://manager.linode.com', 'Linode Manager', 'username', 'password') }}
+<p>The company that owns the hardware that the {{ guideVar("clientName") }} website is hosted on.</p>
+{{ self.passwordTable('Hosting Company', 'Linode', 'https://manager.linode.com', 'Linode Manager', 'username', guideVar("REPLACE_ME")) }}
 
 {#
 
-{{ self.passwordTable('Hosting Company', 'Arcustech', 'https://portal.arcustech.com', 'Account Portal', 'username', 'password') }}
-{{ self.passwordTable('Hosting Company', 'DigitalOcean', 'https://cloud.digitalocean.com/login', 'DigitalOcean Login', 'username', 'password') }}
-{{ self.passwordTable('Hosting Company', 'fortrabbit', 'https://dashboard.fortrabbit.com', 'fortrabbit Login', 'username', 'password') }}
-{{ self.passwordTable('Hosting Company', 'Linode', 'https://manager.linode.com', 'Linode Manager', 'username', 'password') }}
+{{ self.passwordTable('Hosting Company', 'Arcustech', 'https://portal.arcustech.com', 'Account Portal', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Hosting Company', 'DigitalOcean', 'https://cloud.digitalocean.com/login', 'DigitalOcean Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Hosting Company', 'fortrabbit', 'https://dashboard.fortrabbit.com', 'fortrabbit Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Hosting Company', 'Linode', 'https://manager.linode.com', 'Linode Manager', 'username', guideVar("REPLACE_ME")) }}
 
 #}
 
 <h3 data-guide-section>Server Software</h3>
-{{ self.passwordTable('Service', 'Laravel Forge', 'https://forge.laravel.com/auth/login', 'Forge Login', 'username', 'password') }}
+<p>The software that is used to manage the websites on the hosting server.</p>
+{{ self.passwordTable('Service', 'Laravel Forge', 'https://forge.laravel.com/auth/login', 'Forge Login', 'username', guideVar("REPLACE_ME")) }}
 
 {#
 
-{{ self.passwordTable('Service', 'Laravel Forge', 'https://forge.laravel.com/auth/login', 'Forge Login', 'username', 'password') }}
-{{ self.passwordTable('Service', 'ServerPilot', 'https://manage.serverpilot.io', 'ServerPilot Login', 'username', 'password') }}
+{{ self.passwordTable('Service', 'Laravel Forge', 'https://forge.laravel.com/auth/login', 'Forge Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Service', 'ServerPilot', 'https://manage.serverpilot.io', 'ServerPilot Login', 'username', guideVar("REPLACE_ME")) }}
 
 #}
 
 <h3 data-guide-section>Domain</h3>
-{{ self.passwordTable('Domain Registrar', 'Hover', 'https://www.hover.com/signin', 'Hover Login', 'username', 'password') }}
+<p>The company where your domain is registered and renewed.</p>
+{{ self.passwordTable('Domain Registrar', 'Hover', 'https://www.hover.com/signin', 'Hover Login', 'username', guideVar("REPLACE_ME")) }}
 
 {#
 
-{{ self.passwordTable('Domain Registrar', 'GoDaddy', 'https://sso.godaddy.com/?realm=idp&path=%2Fproducts&app=account', 'My Account', 'username', 'password') }}
-{{ self.passwordTable('Domain Registrar', 'Hover', 'https://www.hover.com/signin', 'Hover Login', 'username', 'password') }}
-{{ self.passwordTable('Domain Registrar', 'Namecheap', 'https://www.namecheap.com', 'Namecheap', 'username', 'password') }}
+{{ self.passwordTable('Domain Registrar', 'GoDaddy', 'https://sso.godaddy.com/?realm=idp&path=%2Fproducts&app=account', 'My Account', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Domain Registrar', 'Hover', 'https://www.hover.com/signin', 'Hover Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Domain Registrar', 'Namecheap', 'https://www.namecheap.com', 'Namecheap', 'username', guideVar("REPLACE_ME")) }}
 
 #}
 
-
-<h3 data-guide-section>DNS</h3>
-<p>The DNS is hosted with <span class="guide_fpo">DNS HOST</span>.</p>
+<h2 data-guide-section>DNS</h2>
+<p>The DNS is hosted with {{ guideVar("FPO") }}. The nameservers below are used to point the domain to your hosting server.</p>
 
 <h4>Nameservers</h4>
 <ul>
@@ -60,13 +72,13 @@
 <h2>Third-Party Integrations</h2>
 
 <h3 data-guide-section>Analytics</h3>
-
-{{ self.passwordTable('Provider', 'Google Analytics', 'https://analytics.google.com/analytics', 'Google Analytics', 'username', 'password') }}
+<p>The {{ guideVar("clientName") }} website has anonymous tracking set up to track user behaviour and campaign conversions.</p>
+{{ self.passwordTable('Provider', 'Google Analytics', 'https://analytics.google.com/analytics', 'Google Analytics', 'username', guideVar("REPLACE_ME")) }}
 
 {#
 
-{{ self.passwordTable('Provider', 'Google Analytics', 'https://analytics.google.com/analytics/web', 'Google Analytics', 'username', 'password') }}
-{{ self.passwordTable('Provider', 'Google Tag Manager', 'https://tagmanager.google.com', 'Google Tag Manager', 'username', 'password') }}
+{{ self.passwordTable('Provider', 'Google Analytics', 'https://analytics.google.com/analytics/web', 'Google Analytics', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Provider', 'Google Tag Manager', 'https://tagmanager.google.com', 'Google Tag Manager', 'username', guideVar("REPLACE_ME")) }}
 
 #}
 
@@ -74,14 +86,14 @@
 <p>A sitemap can be shared with search engines to aid them in crawling your website&rsquo;s content. Your sitemap can be found at: <span class="guide_code_inline">{{ siteUrl }}sitemap.xml</span></p>
 
 <h3 data-guide-section>Email Service</h3>
-
-{{ self.passwordTable('Service', 'Mailgun', 'https://app.mailgun.com/cp', 'Mailgun Login', 'username', 'password') }}
+<p>The site sends email through a secure transactional email service.</p>
+{{ self.passwordTable('Service', 'Mailgun', 'https://app.mailgun.com/cp', 'Mailgun Login', 'username', guideVar("REPLACE_ME")) }}
 
 {#
 
-{{ self.passwordTable('Service', 'Mailgun', 'https://app.mailgun.com/cp', 'Mailgun Login', 'username', 'password') }}
-{{ self.passwordTable('Service', 'Postmark', 'https://account.postmarkapp.com/login', 'Postmark Login', 'username', 'password') }}
-{{ self.passwordTable('Service', 'Mandrill', 'https://admin.mailchimp.com/transactional/launch?target=%2F', 'Login via MailChimp', 'username', 'password') }}
+{{ self.passwordTable('Service', 'Mailgun', 'https://app.mailgun.com/cp', 'Mailgun Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Service', 'Postmark', 'https://account.postmarkapp.com/login', 'Postmark Login', 'username', guideVar("REPLACE_ME")) }}
+{{ self.passwordTable('Service', 'Mandrill', 'https://admin.mailchimp.com/transactional/launch?target=%2F', 'Login via MailChimp', 'username', guideVar("REPLACE_ME")) }}
 
 #}
 
@@ -92,7 +104,7 @@
 {% macro passwordTable(companyType, company, loginAddress, loginLabel, username, password) %}
     {# NOTE: the use of input fields for user information is meant to make it easier to copy and paste information #}
 
-    {% if password == 'password' %}
+    {% if username == 'username' %}
         <p class="guide_fpo">NEEDS EDIT</p>
     {% endif %}
     <table>
