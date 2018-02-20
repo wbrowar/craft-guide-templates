@@ -13,7 +13,7 @@ Currently there is just one template, [General CMS Guide](https://github.com/wbr
 
 ## Themes
 
-This repo also contains a [gallery of themes for the Guide plugin](https://github.com/wbrowar/craft-guide-templates/blob/master/THEMES.md). You can contribute a theme via [Pull Request](https://github.com/wbrowar/craft-guide-templates/pulls).
+This repo also contains a [gallery of themes for the Guide plugin](https://github.com/wbrowar/craft-guide-templates/blob/master/THEMES.md).
 
 ## Contributing
 
