@@ -17,6 +17,6 @@ This repo also contains a [gallery of themes for the Guide plugin](https://githu
 
 ## Contributing
 
-If you have something you'd like to add to a template, if you find a typo you'd like to fix, or if you're a plugin developer who can help write an official how-to, please do so in the form of a [Pull Request](https://github.com/wbrowar/craft-guide-templates/pulls). The contribution may be edited for consistency or rejected if it falls outside of the scope described in the template's README.md.
+If you have something you'd like to add to a template, if you find a typo you'd like to fix, or if you're a plugin developer who can help write an official how-to, please do so in the form of a [Pull Request](https://github.com/wbrowar/craft-guide-templates/pulls). _NOTE: The contribution may be edited for consistency or rejected if it falls outside of the scope described in the template's README.md._
 
 If you would like to help edit and maintain a new template, please create a new folder in the appropriate language folder (create a new language folder if needed), add a README.md file (similar to the one in [General CMS Guide](https://github.com/wbrowar/craft-guide-templates/tree/master/en_US/general)), add your templates and assets, and submit it via pull request.
