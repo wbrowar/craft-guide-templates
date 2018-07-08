@@ -1,6 +1,10 @@
 # Craft Guide Templates
 Open source CMS guide templates for use in the Guide plugin for Craft CMS.
 
+Guide is made up of two parts:
+- [The commercial plugin for Craft 3](https://github.com/wbrowar/craft-3-guide)
+- [The open source user guide template](https://github.com/wbrowar/craft-guide-templates)
+
 ## Overview
 
 The [Guide](https://github.com/wbrowar/craft-3-guide) plugin for Craft 3 is built so you can drop in a CMS Guide template and tailor it to your client's website. Craft Guide Templates is meant to give you a starting point and to offer inspiration and examples for your company's boilerplate Guide template.
