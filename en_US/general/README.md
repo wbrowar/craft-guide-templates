@@ -23,3 +23,9 @@ It uses oxford commas and logical quotation. Kindly deal with it.
 ## Contributors
 
 - @wbrowar
+
+## Changelog
+
+### 2018-07-08
+#### Added
+- Added SEO section based on the [SEOmatic](https://github.com/nystudio107/craft-seomatic) plugin

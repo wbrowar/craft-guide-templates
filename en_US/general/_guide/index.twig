@@ -2,14 +2,22 @@
 
 {# Create the secondary navigation by editing this twig tag #}
 {# This tag only needs to live on this page and should not be copied to any other pages #}
-{{ updateGuideCpNav({
+{% set cpNav = {
     'Guide Home': '_guide/index',
     'Editing Content': '_guide/content',
     'Working with Files': '_guide/assets',
     'Managing Users': { permissions: ['editUsers'], template: '_guide/users' },
     'Website Info': { admin: true, template: '_guide/info' },
-    'Guide Components': { permissions: ['editGuides'], template: '_guide/guide_components' },
-}) }}
+} %}
+
+{# Add plugin-specific guide pages. Reorder this menu in Guide plugin settings #}
+{% if pluginEnabled('seomatic') %}
+    {% set cpNav = cpNav|merge({
+        'SEO': '_guide/seo'
+    }) %}
+{% endif %}
+
+{{ updateGuideCpNav(cpNav) }}
 
 
 <h1>CMS Guide</h1>
