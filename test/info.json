@@ -1,14 +1,14 @@
 {
 	"title": "Test Guide",
 	"description": "Test",
-	"language": "twig",
 	"assetsPath": "assets",
 	"templatesPath": "templates",
 	"navigation": [
 		{
-			"title": "Overview",
+			"language": "twig",
+			"template": "overview.twig",
 			"slug": "overview",
-			"template": "overview.twig"
+			"title": "Overview"
 		}
 	],
 	"contributors": [
