@@ -5,7 +5,7 @@
 	"templatesPath": "templates",
 	"navigation": [
 		{
-			"language": "twig",
+			"format": "twig",
 			"template": "overview.twig",
 			"slug": "overview",
 			"title": "Overview"
