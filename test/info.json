@@ -2,6 +2,15 @@
 	"title": "Test Guide",
 	"description": "Test",
 	"language": "twig",
+	"assetsPath": "assets",
+	"templatesPath": "templates",
+	"navigation": [
+		{
+			"title": "Overview",
+			"slug": "overview",
+			"template": "overview.twig"
+		}
+	],
 	"contributors": [
 		"Tester McTested"
 	]
