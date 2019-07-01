@@ -1,0 +1,100 @@
+## Entries
+
+<img src='[GUIDE_VOLUME_PATH]/guide-content-section-types.png' alt='Guide content section types'>
+
+Craft stores your website&rsquo;s content in the <a href="/admin/entries">Entries</a> section of the CP. There are three types of sections that your entries can be stored as:
+
+|  |  |
+| --- | --- |
+| Singles | One-off pages that have a specific purpose, require a specific URL, and often are displayed in their own unique page template. Singles can only be created by an Admin or a developer, but they can be edited by content editors. |
+| Channels | Channels are used to create multiple entries that are grouped together by content type. |
+| Structures | Structures can be used to create multiple entries that can be manually organized within a hierarchy. |
+
+---
+
+## Creating New Entries
+
+<grid grid-type="text-sidebar">
+  <div>
+    <p>Channel and Structure entries can be created from the Entries page by clicking on the "+&nbsp;New Entry" button in the top-right. If you&rsquo;re already within a Channel or Structure section, a new entry of that section type will be created. Alternatively, you may use the downward caret to the right of the "+&nbsp;New Entry" button to select the type of entry you will be creating.</p>
+    <p>By selecting the new entrie&rsquo;s section, you&rsquo;ll be taken to the Create Entry page.</p>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-new.png' alt='Guide content new'>
+  </div>
+</grid>
+
+
+### Populating Fields
+
+<grid grid-type="2-column">
+  <div>
+    <p>There are several different field types within Craft. Some fields are used for content entry, whereas others may be used to determine the layout of the page.</p>
+    <p>If a field is required for a particular entry type, you must enter something into the field before you may publish the entry. If you are not ready to fill out all of the required fields, you may save the entry as a draft by selecting the caret next to the "Save" button and by clicking "Save as a draft". Note that by doing this, when previewing the entry, the page may appear broken until all required fields are populated.</p>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-fields.png' alt='Guide content fields'>
+  </div>
+</grid>
+
+
+### Live Preview
+
+To get an idea as to how a page is starting to look as you begin to enter content into it, you may use the Live Preview feature in Craft. Live Preview updates as you type, helping you make layout and design decisions as your content is being created. To exit Live Preview, use the "Close Live Preview" button in the top-left.
+
+---
+
+## Content Blocks
+
+Some entry types allow for your content to be built in a modular fashion. Content blocks allow for multiple blocks of similar components&mdash;that can be mixed and matched&mdash;so you can create unique layouts for the type of content you are presenting to your audience.
+
+
+### Matrix Fields
+
+<grid grid-type="text-sidebar">
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-matrix.png' alt='Guide content matrix'>
+  </div>
+  <div>
+    <p>To create content within a matrix field, start by selecting the type of content block you would like to create. A new content block will appear and you will be presented with a set of fields that are specific to that block type. In this block there may be fields that are required for the block to be displayed properly.</p>
+    <p>If you need to re-order a series of matrix blocks use the move icon (✜) in the top-right of the block to drag your content blocks up and down.</p>
+  </div>
+</grid>
+
+
+Clicking on the gear in the top-right will allow you to perform bulk actions:
+
+|  |  |
+| --- | --- |
+| Collapse | Get large content blocks out of the way by collapsing them down. The content in these blocks will still appear on the page, and collapsing them only affect the how your content blocks look on the edit page. _NOTE: you can quickly collapse a content block by double-clicking the header of the matrix block._ |
+| Disable | Disabling a matrix block is useful in that if you don&rsquo;t want to delete a block of content but you would like to remove it from the page, disabling a block prevents the content from appearing on the page&mdash;while making it easy to bring back later. |
+| Delete | Removed the content block and all of the content within it. |
+
+Bulk actions can be applied to multiple content blocks at once by checking the box in the top-left corner of each content block before selecting the desired action.
+
+---
+
+## Publishing
+
+An entry is published when the "Enabled" switch in the edit page sidebar is turned on. Depending on the section type, this sidebar can contain more publishing options.
+
+In Channel entries, you will find the following options:
+
+|  |  |
+| --- | --- |
+| Slug | The slug helps determine the URL of the entry. Each slug is unique and will be generated from the entry Title field, however you may manually change the slug if needed. |
+| Author | The entry author affects the permissions for who may edit and publish the entry. The author is pulled from users within Craft. |
+| Post Date | The Post Date of the entry helps when listing content in chronological order. Content can be scheduled for publishing by selecting a future date and time for the Post Date. |
+| Expiry Date | You can schedule content to become unpublished by setting an Expiry Date. |
+| Notes about your changes | All content types allow you to write a note about what had been changed in an update. This is useful for communicating to multiple team members who may work together to create and edit content. |
+
+---
+
+## Versioning
+
+If enabled, Craft can keep past revisions of an entry so you may revert back to an older version when needed. To revert an entry back to a previous version follow these steps:
+
+1. To the right of the page title, click on the revision button. The past revisions of the entry will appear in a dropdown.
+1. Click on a past version. The fields in the entry will be populated with the content that was saved in that version.
+1. At this point you may want to use Live Preview to help confirm the old content still appears correctly. If not, make any necessary updates.
+1. When you are satisfied with your content, click the "Revert entry to this version" button to save the entry.

@@ -1,0 +1,12 @@
+<h2>Caching</h2>
+
+<p>When a customer visits a page on the {{ craft.guide.var("clientName") }} website, a static copy of the page is stored on the server—in a cache—so that the next customer does not need to wait for the server to load and process all of the page‘s code again. This greatly increases the page speed and lowers the amount of work the server needs to do when there are a lot of users on the website at a time.</p>
+<p>When content is updated, the pages that include that content will automatically be cleared from the cache and those pages will be cached again when the next user visits that page.</p>
+
+{% if plugin('blitz') %}
+    <p>On rare occasions, the entire site cache will need to be manually updated. To do so, visit the Blitz Cache page and clear either the entire website or choose a specific page from the list on that page.</p>
+
+    <h2>Warming the Cache</h2>
+    <p>When content is changed in the CMS, that page and any associated pages will be cleared from the cache. The website will warm the cache—automatically visit all links that have been affected, so customers do not experience slow page speed upon the first time the page is visited.</p>
+    <p>This may take a long time to complete, but cache warming happens as a background task so you may continue to make content edits.</p>
+{% endif %}
