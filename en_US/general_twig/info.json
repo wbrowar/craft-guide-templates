@@ -3,7 +3,7 @@
 	"description": "The General CMS Guide is the Guide template for most Craft CMS websites. Its goal is to direct content editors to areas of the CMS, allowing field instructions to offer more detailed direction. Language should be personal, using phrases like, \"You can double-click an image to view image options\".",
 	"assetsPath": "en_US/assets",
 	"templatesPath": "en_US/general_twig/templates",
-	"navigation": [
+	"guides": [
 		{
 			"format": "markdown",
 			"template": "assets.twig",
