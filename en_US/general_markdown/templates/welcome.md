@@ -11,7 +11,7 @@
     <p>The first thing you&rsquo;ll see when logging into Craft&rsquo;s Control Panel (CP) is the Dashboard. This page is home to helpful widgets that offer information about your website. The Dashboard is customizable for each user, so you may add, remove, and re-arrange the layout of the widgets you find most useful.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-index-dashboard.png' alt='Guide index dashboard'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/index-dashboard.png' alt='Guide index dashboard'>
   </div>
 </grid>
 
@@ -25,7 +25,7 @@
     <p>The links in Admin Bar can be customized, so if you find yourself frequenting a page in the CP, a shortcut to that page can be added in Admin Bar&rsquo;s settings.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-index-admin-bar.png' alt='Guide index admin bar'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/index-admin-bar.png' alt='Guide index admin bar'>
   </div>
 </grid>
 

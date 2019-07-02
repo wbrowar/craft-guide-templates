@@ -31,13 +31,13 @@
 		{
 			"contentUrl": "https://docs.craftcms.com/v3/",
 			"slug": "craft-docs",
-			"source": "iframe",
+			"contentSource": "iframe",
 			"title": "Craft Docs"
 		},
 		{
 			"contentUrl": "https://guides.github.com/features/mastering-markdown/",
 			"slug": "mastering-markdown",
-			"source": "iframe",
+			"contentSource": "iframe",
 			"title": "Mastering Markdown"
 		}
 	],

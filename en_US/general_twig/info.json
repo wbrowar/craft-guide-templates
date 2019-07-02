@@ -43,13 +43,13 @@
 		{
 			"contentUrl": "https://docs.craftcms.com/v3/",
 			"slug": "craft-docs",
-			"source": "iframe",
+			"contentSource": "iframe",
 			"title": "Craft Docs"
 		},
 		{
 			"contentUrl": "https://twig.symfony.com/doc/2.x/",
 			"slug": "twig-docs",
-			"source": "iframe",
+			"contentSource": "iframe",
 			"title": "Twig Docs"
 		}
 	],

@@ -8,7 +8,7 @@
     <p>Click the red &ldquo;Save&rdquo; button to add the new user or to update an existing user&rsquo;s settings.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-users-permissions.png' alt='Guide users permissions'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/users-permissions.png' alt='Guide users permissions'>
   </div>
 </grid>
 
@@ -22,6 +22,6 @@
         <p>You may immediately activate a user account by clicking on the &ldquo;Activate account&rdquo; option.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-users-activate.png' alt='Guide users activate'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/users-activate.png' alt='Guide users activate'>
   </div>
 </grid>

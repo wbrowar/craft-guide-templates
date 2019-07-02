@@ -1,6 +1,6 @@
 ## Entries
 
-<img src='[GUIDE_VOLUME_PATH]/guide-content-section-types.png' alt='Guide content section types'>
+<img src='[GUIDE_VOLUME_PATH]/content-section-types.png' alt='Guide content section types'>
 
 Craft stores your website&rsquo;s content in the <a href="/admin/entries">Entries</a> section of the CP. There are three types of sections that your entries can be stored as:
 
@@ -20,7 +20,7 @@ Craft stores your website&rsquo;s content in the <a href="/admin/entries">Entrie
     <p>By selecting the new entrie&rsquo;s section, you&rsquo;ll be taken to the Create Entry page.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-new.png' alt='Guide content new'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/content-new.png' alt='Guide content new'>
   </div>
 </grid>
 
@@ -33,7 +33,7 @@ Craft stores your website&rsquo;s content in the <a href="/admin/entries">Entrie
     <p>If a field is required for a particular entry type, you must enter something into the field before you may publish the entry. If you are not ready to fill out all of the required fields, you may save the entry as a draft by selecting the caret next to the "Save" button and by clicking "Save as a draft". Note that by doing this, when previewing the entry, the page may appear broken until all required fields are populated.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-fields.png' alt='Guide content fields'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/content-fields.png' alt='Guide content fields'>
   </div>
 </grid>
 
@@ -53,7 +53,7 @@ Some entry types allow for your content to be built in a modular fashion. Conten
 
 <grid grid-type="text-sidebar">
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-content-matrix.png' alt='Guide content matrix'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/content-matrix.png' alt='Guide content matrix'>
   </div>
   <div>
     <p>To create content within a matrix field, start by selecting the type of content block you would like to create. A new content block will appear and you will be presented with a set of fields that are specific to that block type. In this block there may be fields that are required for the block to be displayed properly.</p>

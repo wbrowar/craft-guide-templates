@@ -2,8 +2,8 @@
 
 <grid grid-type="text-sidebar">
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-list.png' alt='Guide assets list'>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-thumbnails.png' alt='Guide assets thumbnails'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-list.png' alt='Guide assets list'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-thumbnails.png' alt='Guide assets thumbnails'>
   </div>
   <div>
     <p>Craft stores all of the files you upload as assets and they can be found in the Assets tab in the Control Panel. Assets are organized in volumes based on how they are used on your site. You may view the files within a volume by clicking on the volume title in the sidebar.</p>
@@ -20,7 +20,7 @@
     <p>When editing fields on an asset, click "Save" to commit your changes, or "Cancel" to ignore your changes. Clicking outside of the asset field box also ignores your changes, just as if you had clicked the "Cancel" button.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-field.png' alt='Guide assets field'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-field.png' alt='Guide assets field'>
   </div>
 </grid>
 
@@ -33,7 +33,7 @@
     <p>The image editor gives you the ability to crop, rotate, and flip an image. Once you have have modified the image to your liking, you may choose to save the image or make a copy of the image. Saving an image will update all of the places where the image is used on your website, however making a copy of the image will require you to select the copied version in place of the original.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-edit.png' alt='Guide assets edit'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-edit.png' alt='Guide assets edit'>
   </div>
 </grid>
 
@@ -44,7 +44,7 @@
     <p>If the image is of a portrait, the focal point should be set on the subject of the portrait. If there are multiple subjects in an image, you might want to set the focal point in between them so the cropped photo has a better chance of capturing them all.</p>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-focal-point.png' alt='Guide assets focal point'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-focal-point.png' alt='Guide assets focal point'>
   </div>
 </grid>
 
@@ -63,6 +63,6 @@
     </ol>
   </div>
   <div>
-    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/guide-assets-replace.png' alt='Guide assets replace'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-replace.png' alt='Guide assets replace'>
   </div>
 </grid>
