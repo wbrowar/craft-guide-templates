@@ -2,36 +2,38 @@
 Open source CMS guide templates for use in the Guide plugin for Craft CMS.
 
 Guide is made up of two parts:
-- [The commercial plugin for Craft 3](https://github.com/wbrowar/craft-guide)
+- [The commercial plugin for Craft 3](https://plugins.craftcms.com/guide)
 - [The open source user guide template](https://github.com/wbrowar/craft-guide-templates)
+
+> If you are looking for templates for Guide 1, [see the `guide-1` branch of this repo](https://github.com/wbrowar/craft-guide-templates/tree/guide-1).
 
 ## Overview
 
-The [Guide](https://github.com/wbrowar/craft-3-guide) plugin for Craft 3 is built so you can drop in a CMS Guide template and tailor it to your client’s website. Craft Guide Templates is meant to give you a starting point and to offer inspiration and examples for your company’s boilerplate Guide template.
+The [Guide](https://plugins.craftcms.com/guide) plugin for Craft 3 is built so you can drop in a CMS Guide template and tailor it to your client’s website. Craft Guide Templates is meant to give you a starting point and to offer inspiration and examples for your company’s boilerplate Guide template.
 
-While these template files and assets are created to support the commercial Guide plugin, they are open and free to use however you’d like. They are like the penny jar for CMS guides: if you need an idea, take one, and if you have an idea, please consider contributing.
+While these template files and assets are created to support the commercial Guide plugin, they are open and free to use however you’d like. They are like the penny jar for CMS guides: if you need an idea, take one, and if you have an idea, please consider [contributing](#contributing).
 
 ## Adding Templates to Guide
 
 These Guide templates can be added to a Craft website in one of two ways:
 
 ### Guide Importer
-The simplest way is to import templates from withing Guide’s General Settings page. Clicking on the "Download Templates" button will download this repository to your site’s `storage` directory, unzip it, and present you with a list of importable templates.
+The simplest way is to import templates from within Guide’s General Settings page. Clicking on the "Download Templates" button will download this repository to your site’s `storage` directory, unzip it, and present you with a list of importable templates.
 
 Clicking on which parts of a Guide template you’d like to import, then clicking on the "Import" button will move template files and assets into the right directories.
 
 Once assets are imported, you may have to run Craft’s "Update asset indexes" command to make sure assets are added to your Guide Asset Volume.
 
-Clicking on the "Import Guides into Organizer" option will not move any files, but it will add guides into the database. Imported guides will appear in the Unused Guides column of the Guide Organizer.
+Clicking on the "Import Guides into Organizer" option will not move any files, but it will add guides into the database. Imported guides will appear in the "Unused Guides" column of the Guide Organizer.
 
 ### Adding Templates to the Guide Template Path Directory
 
-Adding a path into Guide’s Template Path setting will let guide know where to look for Guide templates within your site’s `templates` directory.
+Adding a path into Guide’s Template Path setting will let Guide know where to look for Guide templates within your site’s `templates` directory.
 
 To manually add templates from this repo into your site, follow these steps:
 
 1. Download this repo and unzip it onto your server.
-1. Move the template files of your choice from the unzipped directory into your Guide Template Path.
+1. Move the template files of your choice from the unzipped directory into your Guide Template Path (`./templates/_guide` by default).
 1. In Craft’s CP, visit the Guide Organizer and click the "+ New Guide" button to create a new guide.
 1. Set a title and any other guide options you’d like. Select `Page Template` from the Content Source field.
 1. Select a guide template for the Template field and click "Save".
@@ -42,7 +44,7 @@ If you have something you'd like to add to a guide template, if you find a typo 
 
 ### New Guide Templates
 
-If you would like to help edit and maintain a new Guide template, please follow these steps:
+If you would like to create a new Guide template and add it to this repo, please follow these steps:
  
 1. Create a new folder in the appropriate language folder (create a new language folder if needed).
 1. In that folder, create an `info.json` file and fill it out using the options in the [Info File](#info-file) section, below.
@@ -59,10 +61,10 @@ The `info.json` file provides Guide with information necessary for importing you
 | Property | Description | Notes |
 | --- | --- | --- |
 | `title` | The title as it will appear when importing the guide template into Guide. |  |
-| `description` | A description of the guide template,  |  |
+| `description` | A description of the guide template, for the guide import section. |  |
 | `assetsPath` | **(optional)** The path to images and other assets used in the guide. This path is relative to the root of this repo. | _If no assets are used in your Guide template, remove `assetsPath` from your `info.json` file._ |
 | `templatesPath` | The path to `.md`, `.twig`, or `.html` files used in your Guide template. This path is relative to the root of this repo. |  |
-| `guides` | **(optional)** An array of objects that can be imported into the Guide Organizer. | See below for more information about the properties that can be used in each object. |
+| `guides` | **(optional)** An array of guide objects that can be imported into the Guide Organizer. | See below for more information about the properties that can be used in each object. |
 | `contributors` | An array of the GitHub user names of each person who has contributed to the Guide template. | |
 
 The objects in the `guides` array can use the following properties:
