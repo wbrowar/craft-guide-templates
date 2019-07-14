@@ -1,7 +1,10 @@
 {
 	"guides": [
 		{
-			"path": "test"
+			"path": "en_US/general_markdown"
+		},
+		{
+			"path": "en_US/general_twig"
 		}
 	]
 }

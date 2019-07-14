@@ -1,0 +1,68 @@
+## Volumes
+
+<grid grid-type="text-sidebar">
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-list.png' alt='Guide assets list'>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-thumbnails.png' alt='Guide assets thumbnails'>
+  </div>
+  <div>
+    <p>Craft stores all of the files you upload as assets and they can be found in the Assets tab in the Control Panel. Assets are organized in volumes based on how they are used on your site. You may view the files within a volume by clicking on the volume title in the sidebar.</p>
+    <p>On each volume page, you can see details about your files when you are viewing the page as a table. To make it easier to identify image assets, you can use the button in the top-right to change the page over to a thumbnail view.</p>
+  </div>
+</grid>
+
+---
+
+<grid grid-type="text-sidebar">
+  <div>
+    <h2>Asset Fields</h2>
+    <p>On volume pages&mdash;and anywhere in the CMS where an asset can be chosen&mdash;you can can double-click the thumbnail or filename to bring up setting fields associated with that file. Most files allow you to change the filename and the title of the file, and in some cases you'll see more fields that can be edited to manage how the file functions and is viewed on your site.</p>
+    <p>When editing fields on an asset, click "Save" to commit your changes, or "Cancel" to ignore your changes. Clicking outside of the asset field box also ignores your changes, just as if you had clicked the "Cancel" button.</p>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-field.png' alt='Guide assets field'>
+  </div>
+</grid>
+
+---
+
+<grid grid-type="sidebar-text">
+  <div>
+    <h2>Editing an Image</h2>
+    <p>When viewing asset fields you'll notice that images display a larger preview above its asset fields. When you hover over the image preview, an "Edit" button will appear. Click that "Edit" button to open up the image editor for that image.</p>
+    <p>The image editor gives you the ability to crop, rotate, and flip an image. Once you have have modified the image to your liking, you may choose to save the image or make a copy of the image. Saving an image will update all of the places where the image is used on your website, however making a copy of the image will require you to select the copied version in place of the original.</p>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-edit.png' alt='Guide assets edit'>
+  </div>
+</grid>
+
+<grid grid-type="sidebar-text">
+  <div>
+    <h3>Setting an Image Focal Point</h3>
+    <p>While in the image editor, you&rsquo;ll see a button, called "Focal Point". Clicking that button will display a dot in the center of the image. This dot indicates that when this image is resized for the various layouts of your site, the image will always attempt to make sure the area where the dot is located is in view.</p>
+    <p>If the image is of a portrait, the focal point should be set on the subject of the portrait. If there are multiple subjects in an image, you might want to set the focal point in between them so the cropped photo has a better chance of capturing them all.</p>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-focal-point.png' alt='Guide assets focal point'>
+  </div>
+</grid>
+
+---
+
+<grid grid-type="text-sidebar">
+  <div>
+    <h2 data-guide-section>Replacing an Asset</h2>
+    <p>If you've uploaded an asset and used it in multiple places within your website, Craft makes it easy to replace the file with another. Follow these instructions to replace a file:</p>
+
+    <ol>
+        <li>On the asset volume page, click on the checkbox next to the filename. The search bar at the top will be replaced by an gear drop down.</li>
+        <li>Click on the gear and you&rsquo;ll see several action items available for that asset. Click on "Replace file" and the file browser will appear.</li>
+        <li>Selecting a file and clicking "Open" will immediately replace the file in the asset volume page, as well as in every place the file is used in your website.</li>
+        <li>If the new asset&rsquo;s settings need to be edited or if its focal point needs to be set, you may also use the gear and select "Edit image" to do so.</li>
+    </ol>
+  </div>
+  <div>
+    <img data-lazy-load data-src='[GUIDE_VOLUME_PATH]/assets-replace.png' alt='Guide assets replace'>
+  </div>
+</grid>
