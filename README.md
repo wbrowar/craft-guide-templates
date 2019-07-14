@@ -1,9 +1,9 @@
 # Craft Guide Templates
-Open source CMS guide templates for use in the Guide plugin for Craft CMS.
+Open source CMS Guide templates for use in the Guide plugin for Craft CMS.
 
 Guide is made up of two parts:
 - [The commercial plugin for Craft 3](https://plugins.craftcms.com/guide)
-- [The open source user guide template](https://github.com/wbrowar/craft-guide-templates)
+- [The open source user Guide template](https://github.com/wbrowar/craft-guide-templates)
 
 > If you are looking for templates for Guide 1, [see the `guide-1` branch of this repo](https://github.com/wbrowar/craft-guide-templates/tree/guide-1).
 
@@ -36,11 +36,11 @@ To manually add templates from this repo into your site, follow these steps:
 1. Move the template files of your choice from the unzipped directory into your Guide Template Path (`./templates/_guide` by default).
 1. In Craft’s CP, visit the Guide Organizer and click the "+ New Guide" button to create a new guide.
 1. Set a title and any other guide options you’d like. Select `Page Template` from the Content Source field.
-1. Select a guide template for the Template field and click "Save".
+1. Select a Guide template for the Template field and click "Save".
 
 ## Contributing
 
-If you have something you'd like to add to a guide template, if you find a typo you’d like to fix, or if you're a plugin developer who can help write an official how-to, please do so in the form of a [Pull Request](https://github.com/wbrowar/craft-guide-templates/pulls).
+If you have something you'd like to add to a Guide template, if you find a typo you’d like to fix, or if you're a plugin developer who can help write an official how-to, please do so in the form of a [Pull Request](https://github.com/wbrowar/craft-guide-templates/pulls).
 
 ### New Guide Templates
 
@@ -49,7 +49,7 @@ If you would like to create a new Guide template and add it to this repo, please
 1. Create a new folder in the appropriate language folder (create a new language folder if needed).
 1. In that folder, create an `info.json` file and fill it out using the options in the [Info File](#info-file) section, below.
 1. In `./GUIDES.json` add the path to your guide to the list of paths.
-1. If your guide template requires assets, create an `assets` folder, add your assets there, and add the path to the folder into your `info.json` file. _NOTE: The path should be relative to the root of this repo._
+1. If your Guide template requires assets, create an `assets` folder, add your assets there, and add the path to the folder into your `info.json` file. _NOTE: The path should be relative to the root of this repo._
 1. Create a `templates` folder, create your `.md`, `.twig`, or `.html` files in this new folder, and add the path to the folder into your `info.json` file. _NOTE: This path should also be relative to the root of this repo._
 1. In your `info.json` file, add a `guides` array and add information required for each of the templates in your guide.
 1. Submit your new Guide template via pull request.
@@ -60,8 +60,8 @@ The `info.json` file provides Guide with information necessary for importing you
 
 | Property | Description | Notes |
 | --- | --- | --- |
-| `title` | The title as it will appear when importing the guide template into Guide. |  |
-| `description` | A description of the guide template, for the guide import section. |  |
+| `title` | The title as it will appear when importing the Guide template into Guide. |  |
+| `description` | A description of the Guide template, for the guide import section. |  |
 | `assetsPath` | **(optional)** The path to images and other assets used in the guide. This path is relative to the root of this repo. | _If no assets are used in your Guide template, remove `assetsPath` from your `info.json` file._ |
 | `templatesPath` | The path to `.md`, `.twig`, or `.html` files used in your Guide template. This path is relative to the root of this repo. |  |
 | `guides` | **(optional)** An array of guide objects that can be imported into the Guide Organizer. | See below for more information about the properties that can be used in each object. |
