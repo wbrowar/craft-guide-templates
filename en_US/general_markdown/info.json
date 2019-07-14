@@ -1,44 +1,32 @@
 {
 	"title": "General (Markdown)",
-	"description": "The General CMS Guide is the Guide template for most Craft CMS websites. Its goal is to direct content editors to areas of the CMS, allowing field instructions to offer more detailed direction. Language should be personal, using phrases like, \"You can double-click an image to view image options\". The Markdown version is meant to be a starter that is easier to non-programmers to pickup and edit.",
+	"description": "The General CMS Guide is the Guide template for most Craft CMS websites. Its goal is to direct content editors to areas of the CMS, allowing field instructions to offer more detailed direction. Language should be personal, using phrases like, “You can double-click an image to view image options”. The Markdown version is meant to be a starter that is easier to non-programmers to pickup and edit.",
 	"assetsPath": "en_US/assets",
 	"templatesPath": "en_US/general_markdown/templates",
 	"guides": [
 		{
 			"format": "markdown",
-			"template": "assets.md",
 			"slug": "assets",
+			"template": "assets.md",
 			"title": "Working with Files"
 		},
 		{
 			"format": "markdown",
-			"template": "content.md",
 			"slug": "content",
+			"template": "content.md",
 			"title": "Editing Content"
 		},
 		{
 			"format": "markdown",
-			"template": "users.md",
 			"slug": "users",
+			"template": "users.md",
 			"title": "Managing Users"
 		},
 		{
 			"format": "markdown",
-			"template": "welcome.md",
 			"slug": "welcome",
+			"template": "welcome.md",
 			"title": "Welcome to Craft CMS"
-		},
-		{
-			"contentUrl": "https://docs.craftcms.com/v3/",
-			"slug": "craft-docs",
-			"contentSource": "iframe",
-			"title": "Craft Docs"
-		},
-		{
-			"contentUrl": "https://guides.github.com/features/mastering-markdown/",
-			"slug": "mastering-markdown",
-			"contentSource": "iframe",
-			"title": "Mastering Markdown"
 		}
 	],
 	"contributors": [

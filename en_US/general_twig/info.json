@@ -1,59 +1,59 @@
 {
 	"title": "General (Twig)",
-	"description": "The General CMS Guide is the Guide template for most Craft CMS websites. Its goal is to direct content editors to areas of the CMS, allowing field instructions to offer more detailed direction. Language should be personal, using phrases like, \"You can double-click an image to view image options\".",
+	"description": "The General CMS Guide is the Guide template for most Craft CMS websites. Its goal is to direct content editors to areas of the CMS, allowing field instructions to offer more detailed direction. Language should be personal, using phrases like, “You can double-click an image to view image options”.",
 	"assetsPath": "en_US/assets",
 	"templatesPath": "en_US/general_twig/templates",
 	"guides": [
 		{
-			"format": "markdown",
-			"template": "assets.twig",
+			"format": "twig",
 			"slug": "assets",
+			"template": "assets.twig",
 			"title": "Working with Files"
 		},
 		{
-			"format": "markdown",
-			"template": "content.twig",
+			"format": "twig",
 			"slug": "content",
+			"template": "content.twig",
 			"title": "Editing Content"
 		},
 		{
-			"format": "markdown",
-			"template": "performance.twig",
+			"format": "twig",
 			"slug": "performance",
+			"template": "performance.twig",
 			"title": "Performance"
 		},
 		{
-			"format": "markdown",
-			"template": "seo.twig",
+			"format": "twig",
 			"slug": "seo",
+			"template": "seo.twig",
 			"title": "SEO"
 		},
 		{
-			"format": "markdown",
-			"template": "users.twig",
+			"format": "twig",
 			"slug": "users",
+			"template": "users.twig",
 			"title": "Managing Users"
 		},
 		{
-			"format": "markdown",
-			"template": "welcome.twig",
+			"format": "twig",
 			"slug": "welcome",
+			"template": "welcome.twig",
 			"title": "Welcome to Craft CMS"
 		},
 		{
+			"contentSource": "iframe",
 			"contentUrl": "https://docs.craftcms.com/v3/",
 			"slug": "craft-docs",
-			"contentSource": "iframe",
 			"title": "Craft Docs"
 		},
 		{
+			"contentSource": "iframe",
 			"contentUrl": "https://twig.symfony.com/doc/2.x/",
 			"slug": "twig-docs",
-			"contentSource": "iframe",
 			"title": "Twig Docs"
 		}
 	],
 	"contributors": [
-		"Tester McTested"
+		"@wbrowar"
 	]
 }
