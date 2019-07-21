@@ -80,7 +80,7 @@ Bulk actions can be applied to multiple content blocks at once by checking the b
 
 ## Drafts and Revisions
 
-Drafts are versions of your content that are unpublished and can be shared with others while the current version of your content exists on your site.
+Drafts are versions of your content that are unpublished and can be shared with others while the current version of your content exists on your site. To start a new draft, click on the "Save as a Draft" button.
 
 Craft will automatically save new drafts as you make changes to the fields on a piece of content. You’ll see the revisions drop down change and a green check mark will appear next to it letting you know that a new draft has been saved.
 
