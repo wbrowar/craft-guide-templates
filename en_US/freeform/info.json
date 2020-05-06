@@ -1,0 +1,17 @@
+{
+	"title": "Freeform (Twig)",
+	"description": "This is a guide for basic Freeform use where editors are allowed to create and edit their own forms.",
+	"assetsPath": "en_US/freeform/assets",
+	"templatesPath": "en_US/freeform/templates",
+	"guides": [
+		{
+			"format": "twig",
+			"slug": "freeform",
+			"template": "freeform.twig",
+			"title": "Freeform"
+		},
+	],
+	"contributors": [
+		"@darylknight"
+	]
+}

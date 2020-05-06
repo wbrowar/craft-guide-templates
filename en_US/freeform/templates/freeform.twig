@@ -1,0 +1,37 @@
+<p>You can create and edit forms from within the control panel under <a href="{{ url('freeform') }}">Freeform</a> in the sidebar.</p>
+
+<h2>Dashboard</h2>
+<p>The dashboard displays an overview of all your form data; how many submissions there are, how many forms you have, errors etc.</p>
+
+<h2>Creating Forms</h2>
+<p>To create a form, go to <a href="{{ url('freeform/forms') }}">Forms</a> and click <span style="border-radius: 4px; padding: 5px 10px 6px 10px; background-color: #e5422b; color: white;">+ New Form</span></p>
+
+<h2>Editing Forms</h2>
+<p>To edit an existing form, go to <a href="{{ url('freeform/forms') }}">Forms</a> and click on the title of the form you want to edit. This will take you to the form composer, and has an inbuilt click-through guide on how to build forms. You can open the walkthrough by clicking on this flashing icon:</p>
+<img src="{{ craft.assets.filename('forms-composer.png').one().url }}" style="width: auto">
+
+<h2>Adding Forms to Pages</h2>
+<p>When editing another entry on the site, you can add any forms you've previously created by adding a Form block to the page. This will ask you which form to include. If AJAX is enabled on the form itself, you'll be able to customise the success and error messages for that form here.</p>
+<img src="{{ craft.assets.filename('forms-block.png').one().url }}" style="width: auto">
+
+<h2>Submission Methods</h2>
+<p>Forms have two methods of submission; AJAX or no-AJAX:
+<ul>
+	<li><strong>AJAX</strong> is a method of submission that submits the form without reloading the page, and displays error and success messages in a box above the form.</li>
+	<li><strong>If AJAX is disabled</strong>, you can specify a URL that the form should redirect a user to once they hit submit. This can be a fully customised thank you page that works the same way as all the other pages on the site.</li>
+</ul>
+<p>You can enable or disable AJAX per-form using the checkbox on the form editor:</p>
+<img src="{{ craft.assets.filename('forms-ajax.png').one().url }}" style="width: auto">
+<p>If AJAX is disabled, you should add a Return URL. This defines where the form will redirect the user to after they click submit. It should be a page on your website.</p>
+<img src="{{ craft.assets.filename('forms-return.png').one().url }}" style="width: auto">
+
+<h2>Notifications</h2>
+<h3>Admin Notifications</h3>
+<p>You can send form submissions by email to as many people as you like by clicking on the envelope tab in the form builder, selecting a <a href="{{ url('freeform/notifications') }}">notification template</a>, and adding email addresses.</p>
+<img src="{{ craft.assets.filename('forms-notifications.png').one().url }}" style="width: auto">
+<h3>Auto Responses</h3>
+<p>You can choose to send an automatic reply to a user when they submit a form by adding a notification to the email field they fill in. Click on the email field you added to your form, then in the sidebar on the right, select the <a href="{{ url('freeform/notifications') }}">notification template</a> to use.</p>
+
+<h2>Adding fields</h2>
+<p>You can add fields to use in all of your forms either from the <a href="{{ url('freeform/fields') }}">Fields</a> section of Freeform, or by adding them while building a new form from the sidebar on the left.</p>
+<img src="{{ craft.assets.filename('forms-fields.png').one().url }}" style="width: auto">
