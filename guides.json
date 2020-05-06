@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "en_US/general_twig"
+		},
+		{
+			"path": "en_US/freeform"
 		}
 	]
 }
